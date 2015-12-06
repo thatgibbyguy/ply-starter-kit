@@ -17,17 +17,25 @@ The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbygu
 The TFF Meteor Boilerplate includes flow-router and iron-router. Whichever your choice is, you should remove the redundant router by running `$ meteor remove ` followed by the package name you're removing.
 
 ### Version
-0.1.1
+0.1.2
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
 
-### Todos
+### Roadmap
 
  - Integrate Webpack
  - Introduce Vue.js & React.js
  - Switch to an Open Source CSS framework (open for suggestions)
  - Convert boilerplate into a meteor package
+ - Switch to scss for all css
+ - PostCSS integration
+
+### History
+
+- 0.1.0 - Initial Release
+- 0.1.1 - Velocity testing integrated, flow-router added
+- 0.1.2 - Updated roadmap
 
 License
 ----
