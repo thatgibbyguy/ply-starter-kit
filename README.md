@@ -16,6 +16,12 @@ The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbygu
 
 The TFF Meteor Boilerplate includes flow-router and iron-router. Whichever your choice is, you should remove the redundant router by running `$ meteor remove ` followed by the package name you're removing.
 
+## Testing
+
+Velocity is integrated with this boilerplate by default. This means that running `meteor` will load velocity and run tests automatically. Sample tests are available at `/app/tests/cucumber/`.
+
+To run your app without testing, simply run `$ meteor --production run`.
+
 ### Version
 0.1.2
 

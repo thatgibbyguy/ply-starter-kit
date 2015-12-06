@@ -4,33 +4,46 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-spiderable
-aldeed:autoform
-fortawesome:fontawesome
-aldeed:collection2
-kevohagan:sweetalert
-iron:router
-less
-email
-matteodem:server-session
-reywood:iron-router-ga
-meteorhacks:kadira
-meteorhacks:kadira-profiler
-standard-minifiers
-meteor-base
-mobile-experience
-mongo
-blaze-html-templates
+# __ Base meteor packages
 session
 jquery
 tracker
+spacebars
+mongo
+meteor-base
+mobile-experience
+blaze-html-templates
+standard-minifiers
 logging
 reload
-random
+email
 ejson
-spacebars
+random
 check
+
+# __ Routing packages
+iron:router
 kadira:flow-router
+
+# __ SEO Packages
+spiderable
+reywood:iron-router-ga
+
+# __ Data Packages
+aldeed:autoform
+aldeed:collection2
+matteodem:server-session
+
+# __ Front End Packages
+less
+fortawesome:fontawesome
+kevohagan:sweetalert
+
+# __ Reporting
+meteorhacks:kadira
+meteorhacks:kadira-profiler
+
+# __ Testing packages
 velocity:core
 velocity:console-reporter
 xolvio:cucumber
