@@ -30,3 +30,7 @@ random
 ejson
 spacebars
 check
+kadira:flow-router
+velocity:core
+velocity:console-reporter
+xolvio:cucumber

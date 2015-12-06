@@ -9,7 +9,7 @@ The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbygu
 # Using this boilerplate
 - First install meteor from the command line.
 `$ curl https://install.meteor.com/ | sh`
-- Next, simply clone this directory and start your app from the command line: `$ git clone https://github.com/thatgibbyguy/tgg-meteor-boilerplate.git && cd app && meteor`
+- Next, simply clone this directory and start your app from the command line: `$ git clone https://github.com/thatgibbyguy/tgg-meteor-boilerplate.git && cd tgg-meteor-boilerplate/app && meteor`
 - Finally, keep the [meteor docs](http://docs.meteor.com/#/full/) handy.
 
 ### Version
