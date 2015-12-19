@@ -14,7 +14,7 @@ The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbygu
 
 ## Routing
 
-The TFF Meteor Boilerplate includes flow-router and iron-router. Whichever your choice is, you should remove the redundant router by running `$ meteor remove ` followed by the package name you're removing.
+The TGG Meteor Boilerplate includes flow-router and iron-router. Whichever your choice is, you should remove the redundant router by running `$ meteor remove ` followed by the package name you're removing.
 
 ## Testing
 
