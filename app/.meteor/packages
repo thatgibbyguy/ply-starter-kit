@@ -20,6 +20,7 @@ email
 ejson
 random
 check
+ecmascript
 
 # __ Routing packages
 iron:router

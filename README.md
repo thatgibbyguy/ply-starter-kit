@@ -23,7 +23,7 @@ Velocity is integrated with this boilerplate by default. This means that running
 To run your app without testing, simply run `$ meteor --production run`.
 
 ### Version
-0.1.2
+0.1.3
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
@@ -42,6 +42,7 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 - 0.1.0 - Initial Release
 - 0.1.1 - Velocity testing integrated, flow-router added
 - 0.1.2 - Updated roadmap
+- 0.1.3 - Added ecmascript package, fixed error in schema exampl, added example fixture.
 
 License
 ----

@@ -9,5 +9,5 @@
 // 	}
 // });
 
-// Codes.attachSchema(Schemas.exampleCollectionSchema);
+// exampleCollection.attachSchema(Schemas.exampleCollectionSchema);
 
