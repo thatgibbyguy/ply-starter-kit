@@ -1,5 +1,5 @@
-Template.home.helpers({
-	// exampleHelper: function () {
-	// 	return exampleCollection.find();
-	// }
-});
+// Template.home.helpers({
+//   exampleHelper: function () {
+//     return exampleCollection.find();
+//   }
+// });

@@ -1,12 +1,12 @@
 Router.configure({
-	layoutTemplate: 'appLayout',
-	loadingTemplate: 'loading',
-	trackPageView: true
+  layoutTemplate: 'appLayout',
+  loadingTemplate: 'loading',
+  trackPageView: true
 });
 
 Router.route('/',{
-	name: 'home',
-	waitOn: function() { 
-		// return Meteor.subscribe('collectionName'); 
-	}
+  name: 'home',
+  // waitOn: function() { 
+  //  return Meteor.subscribe('collectionName'); 
+  // }
 });

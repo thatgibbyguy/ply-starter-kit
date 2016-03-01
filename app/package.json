@@ -1,0 +1,31 @@
+{
+  "name": "tgg-meteor-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple meteor boilerplate to get you up and running with all your important packages already installed.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatgibbyguy/tgg-meteor-boilerplate.git"
+  },
+  "keywords": [
+    "meteor",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "John Gibby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatgibbyguy/tgg-meteor-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thatgibbyguy/tgg-meteor-boilerplate#readme"
+}

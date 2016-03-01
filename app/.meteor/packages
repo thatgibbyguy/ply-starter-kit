@@ -13,7 +13,6 @@ mongo
 meteor-base
 mobile-experience
 blaze-html-templates
-standard-minifiers
 logging
 reload
 email
@@ -21,10 +20,10 @@ ejson
 random
 check
 ecmascript
+react
 
 # __ Routing packages
 iron:router
-kadira:flow-router
 
 # __ SEO Packages
 spiderable
@@ -36,13 +35,19 @@ aldeed:collection2
 matteodem:server-session
 
 # __ Front End Packages
-less
+react-template-helper
+fourseven:scss@=3.2.0
+rajasegar:compass-mixins
+liadrian:ionicons-cdn
+seba:minifiers-autoprefixer
+dburles:google-maps
 fortawesome:fontawesome
 kevohagan:sweetalert
 
 # __ Reporting
 meteorhacks:kadira
 meteorhacks:kadira-profiler
+percolatestudio:segment.io@=2.0.0_1
 
 # __ Testing packages
 velocity:core

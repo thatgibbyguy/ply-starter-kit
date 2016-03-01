@@ -1,13 +1,13 @@
-// var Schemas = {};
+var Schemas = {};
 
-// exampleCollection = new Mongo.Collection('examplecollection');
+exampleCollection = new Mongo.Collection('examplecollection');
 
-// Schemas.exampleCollectionSchema = new SimpleSchema({
-// 	key:{
-// 		type: String,
-// 		label: "key label"
-// 	}
-// });
+Schemas.exampleCollectionSchema = new SimpleSchema({
+  key:{
+    type: String,
+    label: "key label"
+  }
+});
 
-// exampleCollection.attachSchema(Schemas.exampleCollectionSchema);
+exampleCollection.attachSchema(Schemas.exampleCollectionSchema);
 

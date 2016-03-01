@@ -1,3 +1,3 @@
-Template.appLayout.rendered = function () {
-	// overall onload
-};
+// Template.appLayout.rendered = function () {
+//   overall onload
+// };
