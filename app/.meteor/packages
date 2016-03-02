@@ -35,12 +35,11 @@ aldeed:collection2
 matteodem:server-session
 
 # __ Front End Packages
+less
 react-template-helper
 fourseven:scss@=3.2.0
-rajasegar:compass-mixins
 liadrian:ionicons-cdn
 seba:minifiers-autoprefixer
-dburles:google-maps
 fortawesome:fontawesome
 kevohagan:sweetalert
 
