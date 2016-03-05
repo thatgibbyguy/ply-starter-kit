@@ -10,3 +10,7 @@ Router.route('/',{
   //  return Meteor.subscribe('collectionName'); 
   // }
 });
+
+Router.route('/slugifyExample',{
+  name: 'slugifyExampleTemplate'
+});

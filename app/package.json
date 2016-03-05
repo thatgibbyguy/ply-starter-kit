@@ -9,7 +9,9 @@
   "dependencies": {
     "classnames": "^2.2.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "slugify": "^0.1.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
