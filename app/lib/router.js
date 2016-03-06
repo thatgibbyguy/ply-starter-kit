@@ -5,12 +5,5 @@ Router.configure({
 });
 
 Router.route('/',{
-  name: 'home',
-  // waitOn: function() { 
-  //  return Meteor.subscribe('collectionName'); 
-  // }
-});
-
-Router.route('/slugifyExample',{
   name: 'slugifyExampleTemplate'
 });
