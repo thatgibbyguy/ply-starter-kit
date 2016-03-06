@@ -1,3 +1,4 @@
+import React from 'react';
 import slugify from 'slugify';
 
 export default React.createClass({
@@ -5,35 +6,69 @@ export default React.createClass({
     return {
       slugifiedString: null,
       textValue: null,
-      buttonDisabled: null
+      isDisabled: true,
+      showSlug: false
     }
   },
 
-  setTextValue(event) {
-    this.state.textValue = event.target.value;
-    // if textValue has no value disabled is true
-    // else disabled is false
-    let isDisabled = !this.state.textValue ? true : false;
-    this.state.buttonDisabled = isDisabled;
+  handleInput(event) {
+    this.setState({ 
+      textValue: event.target.value,
+      isDisabled: false
+    });
+
+    if (this.state.textValue && this.state.textValue.length > 1) {
+      this.setState({
+        isDisabled: false
+      })
+    }
+    else {
+      this.setState({
+        isDisabled: true,
+        showSlug: false
+      })
+    }
+  },
+
+  handleSubmit(event) {
+    event.preventDefault();
+    this.setState({
+      showSlug: true,
+      slugifiedString: slugify(this.state.textValue)
+    });
   },
 
   render() {
-    let { slugifiedString, 
-          textValue,
-          buttonDisabled } = this.state;
-
-    // if slugifiedString has value placeholderText is empty
-    // else placeHolderText = What do you want to slugify?
-    const placeholderText = slugifiedString ? '' : 'What do you want to slugify?';
+    let { textValue,
+          isDisabled } = this.state;
 
     return (
-      <form className="forms forms-inline">
-        <input type="text" 
-               className="width-50" 
-               placeholder={placeholderText}
-               onChange={this.setTextValue} />
-        <button className="btn" disabled={buttonDisabled}>Slugify This String</button>
-      </form>
+      <div>
+        <form className="forms forms-inline">
+          <input type="text" 
+                 className="width-50" 
+                 placeholder="What do you want to slugify?"
+                 onChange={this.handleInput} />
+          <button className="btn" 
+                  disabled={isDisabled}
+                  onClick={this.handleSubmit}>Slugify This String</button>
+          {this.renderSlugifiedString()}
+        </form>
+      </div>
     );
+  },
+
+  renderSlugifiedString() {
+    const { showSlug, 
+            slugifiedString } = this.state;
+
+    if (showSlug) {
+      return(
+        <div>
+          <h3>Your Slugified String:</h3>
+          <p>{slugifiedString}</p>
+        </div>
+      );
+    }
   }
 });

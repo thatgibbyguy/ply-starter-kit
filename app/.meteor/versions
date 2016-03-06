@@ -48,7 +48,6 @@ iron:middleware-stack@1.0.11
 iron:router@1.0.12
 iron:url@1.0.11
 jquery@1.11.5-beta.11
-jsx@0.2.4
 kevohagan:sweetalert@1.0.0
 launch-screen@1.0.6-beta.11
 less@2.5.2-beta.11
@@ -87,8 +86,6 @@ practicalmeteor:loglevel@1.1.0_3
 promise@0.5.2-beta.11
 random@1.0.6-beta.11
 rate-limit@1.0.1-beta.11
-react@0.14.3_1
-react-meteor-data@0.2.5
 react-runtime@0.14.4
 react-runtime-dev@0.14.4
 react-runtime-prod@0.14.4

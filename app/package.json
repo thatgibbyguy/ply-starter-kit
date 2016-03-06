@@ -10,6 +10,7 @@
     "classnames": "^2.2.3"
   },
   "devDependencies": {
+    "react": "^0.14.7",
     "slugify": "^0.1.1"
   },
   "scripts": {
