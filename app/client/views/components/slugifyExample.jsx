@@ -2,12 +2,17 @@ import React from 'react';
 import slugify from 'slugify';
 
 export default React.createClass({
+  propTypes: {
+    isDisabled: React.PropTypes.bool,
+    showSlug: React.PropTypes.bool
+  },
+
   getInitialState() {
     return {
       slugifiedString: null,
       textValue: null,
-      isDisabled: true,
-      showSlug: false
+      isDisabled: this.props.isDisabled,
+      showSlug: this.props.showSlug
     }
   },
 
@@ -41,7 +46,6 @@ export default React.createClass({
   render() {
     let { textValue,
           isDisabled } = this.state;
-
     return (
       <div>
         <form className="forms forms-inline">
