@@ -47,8 +47,3 @@ kevohagan:sweetalert
 meteorhacks:kadira
 meteorhacks:kadira-profiler
 percolatestudio:segment.io@=2.0.0_1
-
-# __ Testing packages
-velocity:core
-velocity:console-reporter
-xolvio:cucumber
