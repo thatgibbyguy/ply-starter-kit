@@ -1,6 +1,6 @@
 {
   "name": "tgg-meteor-boilerplate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A simple meteor boilerplate to get you up and running with all your important packages already installed.",
   "main": "index.js",
   "directories": {

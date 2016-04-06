@@ -53,7 +53,7 @@ $ meteor --production run
 ```
 
 ### Version
-0.2.1
+0.2.2
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
@@ -61,10 +61,8 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 ### Roadmap
 
  - Integrate Webpack
- - Introduce Vue.js & React.js
- - Switch to an Open Source CSS framework (open for suggestions)
- - Convert boilerplate into a meteor package
- - Switch to scss for all css
+ - Introduce Vue.js
+ - Switch to [ply](https://plygrid.com)
  - PostCSS integration
 
 ### History
