@@ -53,7 +53,7 @@ $ meteor --production run
 ```
 
 ### Version
-0.2.0
+0.2.1
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!

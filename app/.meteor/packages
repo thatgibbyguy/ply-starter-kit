@@ -20,7 +20,6 @@ ejson
 random
 check
 ecmascript
-react
 
 # __ Routing packages
 iron:router

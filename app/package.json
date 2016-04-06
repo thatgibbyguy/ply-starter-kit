@@ -1,13 +1,23 @@
 {
   "name": "tgg-meteor-boilerplate",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple meteor boilerplate to get you up and running with all your important packages already installed.",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "dependencies": {
-    "classnames": "^2.2.3"
+    "classnames": "^2.2.3",
+    "react": "^0.14.8",
+    "react-addons-create-fragment": "^0.14.8",
+    "react-addons-css-transition-group": "^0.14.8",
+    "react-addons-linked-state-mixin": "^0.14.8",
+    "react-addons-perf": "^0.14.8",
+    "react-addons-pure-render-mixin": "^0.14.8",
+    "react-addons-test-utils": "^0.14.8",
+    "react-addons-transition-group": "^0.14.8",
+    "react-addons-update": "^0.14.8",
+    "react-dom": "^0.14.8"
   },
   "devDependencies": {},
   "scripts": {
