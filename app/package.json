@@ -1,6 +1,6 @@
 {
   "name": "tgg-meteor-boilerplate",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A simple meteor boilerplate to get you up and running with all your important packages already installed.",
   "main": "index.js",
   "directories": {
@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.3",
+    "plygrid": "^0.4.1",
     "react": "^0.14.8",
     "react-addons-create-fragment": "^0.14.8",
     "react-addons-css-transition-group": "^0.14.8",

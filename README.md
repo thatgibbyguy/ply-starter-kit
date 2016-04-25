@@ -2,7 +2,7 @@
 
 The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbyguy)) base boilerplate and uses the latest version of [meteor.js](https://www.meteor.com/). Included in this boilerplate is:
 
-  - [Kube v4.02](http://k1.imperavi.com/) 
+  - [plygrid](https://plygrid.com/) 
   - Example code throughout
   - Common packages including: `spiderable` `aldeed:autoform` `fortawesome:fontawesome` `aldeed:collection2` `kevohagan:sweetalert` `iron:router` `react-template-helper` `liadrian:ionicons-cdn` `seba:minifiers-autoprefixer` `fourseven:scss@=3.2.0` `less` `email` `matteodem:server-session` `reywood:iron-router-ga` `meteorhacks:kadira` `meteorhacks:kadira-profiler` `standard-minifiers` `meteor-base` `mobile-experience` `mongo` `blaze-html-templates` `session` `jquery` `tracker` `logging` `reload` `random` `ejson` `spacebars` `check`
 
@@ -42,18 +42,8 @@ Your template `your-template.html`
 </template>
 ```
 
-## Testing
-
-Velocity is integrated with this boilerplate by default. This means that running `meteor` will load velocity and run tests automatically. Sample tests are available at `/app/tests/cucumber/`.
-
-To run your app without testing, simply run 
-
-```
-$ meteor --production run
-```
-
 ### Version
-0.2.2
+0.3.0
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
@@ -61,9 +51,7 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 ### Roadmap
 
  - Integrate Webpack
- - Introduce Vue.js
- - Switch to [ply](https://plygrid.com)
- - PostCSS integration
+ - Integrate Apollo stack
 
 ### History
 
@@ -72,6 +60,8 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 - 0.1.2 - Updated roadmap
 - 0.1.3 - Added ecmascript package, fixed error in schema exampl, added example fixture.
 - 0.1.4 - Updated to Meteor 1.3, removed flow-router.
+- 0.2.* - Utilized React npm package.
+- 0.3.0 - Integrated [plygrid](https://plygrid.com/) .
 
 License
 ----
