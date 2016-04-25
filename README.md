@@ -61,7 +61,7 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 - 0.1.3 - Added ecmascript package, fixed error in schema exampl, added example fixture.
 - 0.1.4 - Updated to Meteor 1.3, removed flow-router.
 - 0.2.* - Utilized React npm package.
-- 0.3.0 - Integrated [plygrid](https://plygrid.com/) .
+- 0.3.0 - Integrated [plygrid](https://plygrid.com/).
 
 License
 ----
