@@ -35,13 +35,10 @@ matteodem:server-session
 
 # __ Front End Packages
 react-template-helper
-fourseven:scss
+fourseven:scss@4.5.0
 liadrian:ionicons-cdn
 seba:minifiers-autoprefixer
 fortawesome:fontawesome
 kevohagan:sweetalert
 
 # __ Reporting
-meteorhacks:kadira
-meteorhacks:kadira-profiler
-percolatestudio:segment.io@=2.0.0_1

@@ -1,10 +1,10 @@
-# TGG Meteor Boilerplate
+# ply's meteor starter kit
 
-The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbyguy)) base boilerplate and uses the latest version of [meteor.js](https://www.meteor.com/). Included in this boilerplate is:
+The **ply meteor starter kit** is my ([thatgibbyguy](https://twitter.com/thatgibbyguy)) base boilerplate and uses the latest version of [meteor.js](https://www.meteor.com/). Included in this boilerplate is:
 
   - [plygrid](https://plygrid.com/) 
   - Example code throughout
-  - Common packages including: `spiderable` `aldeed:autoform` `fortawesome:fontawesome` `aldeed:collection2` `kevohagan:sweetalert` `iron:router` `react-template-helper` `liadrian:ionicons-cdn` `seba:minifiers-autoprefixer` `fourseven:scss@=3.2.0` `less` `email` `matteodem:server-session` `reywood:iron-router-ga` `meteorhacks:kadira` `meteorhacks:kadira-profiler` `standard-minifiers` `meteor-base` `mobile-experience` `mongo` `blaze-html-templates` `session` `jquery` `tracker` `logging` `reload` `random` `ejson` `spacebars` `check`
+  - Common packages including: `spiderable` `aldeed:autoform` `fortawesome:fontawesome` `aldeed:collection2` `kevohagan:sweetalert` `iron:router` `react-template-helper` `liadrian:ionicons-cdn` `seba:minifiers-autoprefixer` `fourseven:scss` `email` `matteodem:server-session` `reywood:iron-router-ga` `meteorhacks:kadira` `meteorhacks:kadira-profiler` `standard-minifiers` `meteor-base` `mobile-experience` `mongo` `blaze-html-templates` `session` `jquery` `tracker` `logging` `reload` `random` `ejson` `spacebars` `check`
 
 # Using this boilerplate
 - First install meteor from the command line.
@@ -14,7 +14,7 @@ The TGG Meteor Boilerplate is my ([thatgibbyguy](https://twitter.com/thatgibbygu
 
 ## Routing
 
-The TGG Meteor Boilerplate utilizes iron-router for routing. I've chosen this router for IE9 support (for those of us that are still stuck with that). If you'd prefer flow-router simply run:
+The ply meteor starter kit utilizes iron-router for routing. I've chosen this router for IE9 support (for those of us that are still stuck with that). If you'd prefer flow-router simply run:
 
 ```
 $ meteor remove iron-router && meteor add kadira:flow-router
@@ -43,15 +43,14 @@ Your template `your-template.html`
 ```
 
 ### Version
-0.3.0
+0.4.0
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
 
 ### Roadmap
 
- - Integrate Webpack
- - Integrate Apollo stack
+ - Upgrade to meteor 1.5
 
 ### History
 
@@ -62,6 +61,7 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 - 0.1.4 - Updated to Meteor 1.3, removed flow-router.
 - 0.2.* - Utilized React npm package.
 - 0.3.0 - Integrated [plygrid](https://plygrid.com/).
+- 0.4.0 - Used meteor approved syntax, upgraded to meteor 1.4.3
 
 License
 ----

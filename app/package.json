@@ -7,18 +7,11 @@
     "test": "tests"
   },
   "dependencies": {
-    "classnames": "^2.2.3",
-    "plygrid": "^0.4.1",
-    "react": "^0.14.8",
-    "react-addons-create-fragment": "^0.14.8",
-    "react-addons-css-transition-group": "^0.14.8",
-    "react-addons-linked-state-mixin": "^0.14.8",
-    "react-addons-perf": "^0.14.8",
-    "react-addons-pure-render-mixin": "^0.14.8",
-    "react-addons-test-utils": "^0.14.8",
-    "react-addons-transition-group": "^0.14.8",
-    "react-addons-update": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "babel-runtime": "^6.23.0",
+    "classnames": "^2.2.5",
+    "plygrid": "^0.7.13",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {},
   "scripts": {
