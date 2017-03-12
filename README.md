@@ -43,7 +43,7 @@ Your template `your-template.html`
 ```
 
 ### Version
-0.4.0
+0.4.1
 
 ### Development
 Want to contribute? Great! Simply fork this repo and create a Pull Request with your added features!
@@ -62,6 +62,7 @@ Want to contribute? Great! Simply fork this repo and create a Pull Request with 
 - 0.2.* - Utilized React npm package.
 - 0.3.0 - Integrated [plygrid](https://plygrid.com/).
 - 0.4.0 - Used meteor approved syntax, upgraded to meteor 1.4.3
+- 0.4.1 - Removed useless public files
 
 License
 ----
